@@ -19,130 +19,125 @@
     />
     <link rel="icon" type="image/x-icon" href="horseshoe.png" />
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     <audio id="click-sound" src="bullet.mp3" preload="auto"></audio>
-    <div class="contain">
-      <div class="overlay">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
-            <a class="navbar-brand text-light" href="#">
-              <h1 class="point">
-                <img
-                  src="horseshoe.png"
-                  alt="Bootstrap"
-                  width="37"
-                  height="37"
-                  class="me-2 point"
-                />Western
-              </h1></a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 32 32"
-                class="text-light"
-              >
-                <path
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M12 8h15M5 16h22M5 24h22M5 11l3-3l-3-3"
-                />
-              </svg>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-end">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active text-light point"
-                    aria-current="page"
-                    href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item ps-4">
-                  <a
-                    class="nav-link active text-light point"
-                    aria-current="page"
-                    href="#"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item ps-4">
-                  <a
-                    class="nav-link active text-light point"
-                    aria-current="page"
-                    href="#"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <main class="container">
-          <div class="row justify-content-center text-center">
-            <div
-              class="col-xxl-3 col-xl-5 col-lg-7 col-md-9 col-11 paper rounded pt-1 mb-4"
-            >
-              <h1>WANTED</h1>
-              <p class="fs-4">PREFERABLY ALIVE</p>
-              <img src="profile.png" class="img-fluid px-4 pt-2 mb-1" />
-              <p class="fs-4 text-dark mb-1">REWARD: EMPLOYMENT</p>
-              <p class="fs-5 text-dark">BORED AND JOBLESS</p>
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-auto rounded paper pt-3">
-              <p>
-                This is just a template website. If you would like to see some
-                of my other works, go to my
-                <a href="https://arontorok.github.io/" class="point"
-                  >portfolio website</a
-                >.
-              </p>
-              <p>
-                Alternatively, seacrh for https://arontorok.github.io/ manually
-                (clicking is a bit buggy)
-              </p>
-            </div>
-          </div>
-        </main>
-        <div class="container">
-          <footer class="footer py-2">
-            <div
-              class="container d-flex justify-content-center align-items-center"
-            >
+    <div class="overlay"></div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">
+          <h1 class="point">
+            <img
+              src="horseshoe.png"
+              alt="Bootstrap"
+              width="37"
+              height="37"
+              class="me-2 point"
+            />Western
+          </h1></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            class="text-light"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 8h15M5 16h22M5 24h22M5 11l3-3l-3-3"
+            />
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-end">
+            <li class="nav-item">
               <a
+                class="nav-link active text-light point"
+                aria-current="page"
                 href="#"
-                class="d-flex align-items-center text-decoration-none"
+                >Home</a
               >
-                <img
-                  src="horseshoe.png"
-                  alt="Logo"
-                  width="37"
-                  height="37"
-                  class="me-2 point"
-                />
-                <h1 class="text-light mb-0 point">WESTERN</h1>
-              </a>
-            </div>
-          </footer>
+            </li>
+            <li class="nav-item ps-4">
+              <a
+                class="nav-link active text-light point"
+                aria-current="page"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item ps-4">
+              <a
+                class="nav-link active text-light point"
+                aria-current="page"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
+    <main class="container">
+      <div class="row justify-content-center text-center">
+        <div
+          class="col-xxl-3 col-xl-5 col-lg-7 col-md-9 col-11 paper rounded pt-1 mb-4 shadow-lg"
+        >
+          <h1>WANTED</h1>
+          <p class="fs-4">PREFERABLY ALIVE</p>
+          <img src="profile.png" class="img-fluid px-4 pt-2 mb-1" />
+          <p class="fs-4 text-dark mb-1">REWARD: EMPLOYMENT</p>
+          <p class="fs-5 text-dark">BORED AND JOBLESS</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-auto rounded paper pt-3 shadow-lg mb-3">
+          <p>
+            This is just a template website. If you would like to see some of my
+            other works, go to my
+            <a href="https://arontorok.github.io/" class="point"
+              >portfolio website</a
+            >.
+          </p>
+          <p>
+            Alternatively, seacrh for https://arontorok.github.io/ manually
+            (clicking is a bit buggy)
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="container d-flex flex-wrap justify-content-center align-items-center mt-auto mb-2"
+    >
+      <a
+        href="#"
+        class="d-flex align-items-center text-decoration-none"
+        aria-label="Bootstrap"
+      >
+        <img
+          src="horseshoe.png"
+          alt="Bootstrap"
+          width="37"
+          height="37"
+          class="me-2"
+        />
+        <h1 class="text-light mb-0">WESTERN</h1>
+      </a>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
