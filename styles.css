@@ -1,13 +1,14 @@
 * {
   cursor: url("crosshair.svg"), auto;
 }
+
 a {
   cursor: url("crosshair_hover.svg"), auto;
   color: brown;
 }
 
 body {
-  background: url("canyon.jpg") center center / cover no-repeat ;
+  background: url("western.jpg") center center / cover no-repeat;
   font-family: "Rye", serif;
   font-weight: 400;
   font-style: normal;
